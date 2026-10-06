@@ -101,7 +101,7 @@ footer{text-align:center;color:var(--mut);font-size:13px;padding:20px 16px 40px}
     <p class="sub">Temos governabilidade sobre o Regimento: suas sugestões entram na revisão.</p>
     <div class="q"><label>Em que etapa do fluxo a sua CMA costuma travar? <span class="opt">(pode marcar várias)</span></label><div class="chips" id="etapas"></div></div>
     <div class="q"><label for="fluxo_atrapalha">O que atrapalha nessa etapa?</label><textarea id="fluxo_atrapalha" name="fluxo_atrapalha"></textarea></div>
-    <div class="q"><label>Sobre a proposta de votação em blocos, com destaques:</label><div class="chips" id="blocos"></div></div>
+    <div class="q"><label>Sobre a proposta de votação em blocos:</label><div class="chips" id="blocos"></div></div>
     <div class="q"><label for="regimento_ajustes">Que ajustes você sugere para a proposta ou para o Regimento?</label><textarea id="regimento_ajustes" name="regimento_ajustes"></textarea></div>
   </section>
 
@@ -133,9 +133,9 @@ const OFICINAS=[
  ['1','Grupo 1 · Belo Horizonte · 21/10',['Belo Horizonte','Divinópolis','Itabira','Sete Lagoas']],
  ['2','Grupo 2 · Coronel Fabriciano · 27/10',['Coronel Fabriciano','Governador Valadares','Ponte Nova','Manhuaçu']],
  ['3','Grupo 3 · Barbacena · 10/11',['Barbacena','São João del-Rei','Juiz de Fora','Leopoldina','Ubá']],
+ ['5','Grupo 5 · Uberaba · 10/11',['Uberaba','Uberlândia','Ituiutaba','Patos de Minas']],
  ['4','Grupo 4 · Varginha · 12/11',['Varginha','Passos','Alfenas','Pouso Alegre']],
- ['5','Grupo 5 · Uberaba · 18/11',['Uberaba','Uberlândia','Ituiutaba','Patos de Minas']],
- ['6','Grupo 6 · Montes Claros · 17/11',['Montes Claros','Pirapora','Januária','Unaí']],
+ ['6','Grupo 6 · Montes Claros · 24/11',['Montes Claros','Pirapora','Januária','Unaí']],
  ['7','Grupo 7 · Diamantina · 24/11',['Diamantina','Teófilo Otoni','Pedra Azul']]];
 const URS_MACRO={'Belo Horizonte':'Centro','Divinópolis':'Oeste','Itabira':'Centro','Sete Lagoas':'Centro','Coronel Fabriciano':'Vale do Aço','Governador Valadares':'Leste','Ponte Nova':'Leste do Sul','Manhuaçu':'Leste do Sul','Barbacena':'Centro Sul','São João del-Rei':'Centro Sul','Juiz de Fora':'Sudeste','Leopoldina':'Sudeste','Ubá':'Sudeste','Varginha':'Sul','Passos':'Sudoeste','Alfenas':'Sul','Pouso Alegre':'Extremo Sul','Uberaba':'Triângulo do Sul','Uberlândia':'Triângulo do Norte','Ituiutaba':'Triângulo do Norte','Patos de Minas':'Noroeste','Montes Claros':'Norte','Pirapora':'Norte','Januária':'Norte','Unaí':'Noroeste','Diamantina':'Jequitinhonha','Teófilo Otoni':'Nordeste','Pedra Azul':'Nordeste'};
 const MACROS=['Centro','Centro Sul','Extremo Sul','Jequitinhonha','Leste','Leste do Sul','Nordeste','Noroeste','Norte','Oeste','Sudeste','Sudoeste','Sul','Triângulo do Norte','Triângulo do Sul','Vale do Aço'];
